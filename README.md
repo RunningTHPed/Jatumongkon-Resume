@@ -1,2 +1,2 @@
 # Resume-Dev
-https://runningthped.github.io/Resume-Dev/
+https://runningthped.github.io/Jatumongkon-Resume/
