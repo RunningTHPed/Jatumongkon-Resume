@@ -1,445 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <title>Resume - Jatumongkon Suksrinuan</title>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="Jatumongkon Suksrinuan" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/devresume.css" />
+  </head>
 
-<head>
-	<title>Resume - Jatumongkon Suksrinuan</title>
+  <body>
+    <!--#include file="partials/navbar.html" -->
+    <div class="main-wrapper">
+      <div class="container px-3 px-lg-5">
+        <article
+          class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg"
+        >
+          <!--#include file="partials/header.html" -->
+          <hr />
+          <div id="about"><!--#include file="partials/about.html" --></div>
+          <hr />
+          <div class="resume-body">
+            <div class="row">
+              <div class="resume-main col-12 col-lg-8 col-xl-8 pe-0 pe-lg-5">
+                <div id="projects"><!--#include file="partials/projects.html" --></div>
+                <div id="achievements"><!--#include file="partials/achievements.html" --></div>
+                <div id="volunteer"><!--#include file="partials/volunteer.html" --></div>
+              </div>
+              <!--//resume-main-->
+              <div class="resume-aside col-12 col-lg-4 col-xl-4 px-lg-4 pb-lg-4">
+                <div id="skills"><!--#include file="partials/sidebar.html" --></div>
+              </div>
+              <!--//resume-aside-->
+            </div>
+            <!--//row-->
+          </div>
+          <!--//resume-body-->
+          <hr />
+          <div id="footer"><!--#include file="partials/footer.html" --></div>
+        </article>
+      </div>
+      <!--//container-->
+    </div>
+    <!--//main-wrapper-->
 
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-
-	<!-- FontAwesome JS-->
-	<script defer src="assets/fontawesome/js/all.min.js"></script>
-
-	<!-- Theme CSS -->
-	<link id="theme-style" rel="stylesheet" href="assets/css/devresume.css">
-
-</head>
-
-<body>
-
-	<div class="main-wrapper">
-		<div class="container px-3 px-lg-5">
-			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
-
-				<div class="resume-header">
-					<div class="row align-items-center">
-						<div class="resume-title col-12 col-md-8 col-lg-8 col-xl-9">
-							<h2 class="resume-name mb-0 text-uppercase">Jatumongkon Suksrinuan</h2>
-							<div class="resume-tagline mb-3 mb-md-0">Computer Engineering Student</div>
-						</div>
-						<!--//resume-title-->
-						<div class="resume-contact col-12 col-md-4 col-lg-4 col-xl-3">
-							<ul class="list-unstyled mb-0">
-								<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg me-2 "></i><a
-										class="resume-link" href="tel:#">093 323 8170</a></li>
-								<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg me-2"></i><a
-										class="resume-link" href="mailto:#">ped.jatumongkon@gmail.com</a></li>
-								<!-- <li class="mb-2"><i class="fas fa-globe fa-fw fa-lg me-2"></i><a class="resume-link"
-										href="#">www.yourwebsite.com</a></li> -->
-								<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>Bangkok, Thailand</li>
-							</ul>
-						</div>
-						<!--//resume-contact-->
-					</div>
-					<!--//row-->
-
-				</div>
-				<!--//resume-header-->
-				<hr>
-				<div class="resume-intro py-3">
-					<div class="row align-items-center">
-						<div class="col-12 col-md-3 col-xl-2 text-center">
-							<img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto"
-								src="assets/images/resume_profile_ped.png" alt="image">
-						</div>
-
-						<div class="col text-start">
-							<h3 class="text-uppercase resume-section-heading mb-4">About Me</h3>
-							<p class="mb-0">I’m interested in Front End Development and Ui/Ux design. 
-								I'm always ready to learn new things and coming up with fresh ideas that will benefit those 
-								who use them while avoiding causing harm to others. I'll take myself out of my comfort zone. 
-								Because I believe the experience outside will give me better skills.
-							</p>
-						</div>
-						<!--//col-->
-					</div>
-				</div>
-				<!--//resume-intro-->
-				<hr>
-				<div class="resume-body">
-					<div class="row">
-						<div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
-							
-
-							<section class="work-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">VOLUNTEER EXPERIENCE</h3>
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Staff for Games of Founder BootCamp</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
-											Young Entrepreneur Assembly Hub (Thailand) 06/2020 - 11/2020</div>
-
-									</div>
-									<div class="item-content">
-										<p>I'm staff. I'm in charge of purchasing and designing all of the event's equipment and locations.</p>
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Admin for CPE KMUTT Admission</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
-											CPE KMUTT Admission <br> 09/2019 - 12/2019</div>
-
-									</div>
-									<div class="item-content">
-										<p>I'm Admin. I have designed various posters and artworks to publicize about admission and activities.</p>
-									</div>
-								</div>
-								<!--//item-->
-
-							</section>
-							<!--//work-section-->
-
-
-							<section class="project-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">ACHIEVEMENTS</h3>
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Certificate Of Completion AWS Cloud Technical Essentials</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://coursera.org/share/5f20b8276da888f7f26eb49b78f28cc8">Open Source</a>
-										</div>
-									</div>
-									<div class="item-content">
-										<p>Successfully Completed AWS Cloud Technical Essentials by Amazon Web Services on Coursera, Issue Jan 2022</p>
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Certificate Of Completion Web Development Bootcamp 2022</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://www.udemy.com/certificate/UC-74514994-f90f-43f3-8427-e3d3f97d4969/">Open Source</a>
-										</div>
-									</div>
-									<div class="item-content">
-										<p>Successfully Completed the course The Complete 2022 Web Development Bootcamp by Dr.Angela Yu on Udemy, Issue Nov 2021</p>
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Certificate Of Completion WEB DESIGN(FIGMA) BASIC HACKaTHAILAND</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://www.dropbox.com/s/vsi05644guldkes/certificate-Web-Design-Figma-Web-DesignFigma-Basic-HACKaTHAILAND.pdf?dl=0">Open Source</a>
-										</div>
-									</div>
-									<div class="item-content">
-										<p>Successfully Completed WEB DESIGN(FIGMA) BASIC by Digital Economy Promotion Agency(depa) on HACKaTHAILAND, Issue Jan 2022</p>
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Certificate Of Completion SMART FARM BASIC HACKaTHAILAND</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://www.dropbox.com/s/hv0hqoj86ng55za/certificate-Smart-Farm-Smart-Farm-Basic-HACKaTHAILAND.pdf?dl=0">Open Source</a>
-										</div>
-									</div>
-									<div class="item-content">
-										<p>Successfully Completed SMART FARM BASIC by Digital Economy Promotion Agency(depa) on HACKaTHAILAND, Issue Jan 2022</p>
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Certificate Of Completion Robotic Process Automation (RPA)</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://www.dropbox.com/home/Certificate?preview=certificate-of-completion-for-robotic-process-automation-rpa-young-blood-e-learning-by-stelligence-and-automation-anywhere.pdf">Open Source</a>
-										</div>
-									</div>
-									<div class="item-content">
-										<p>Successfully Completed The Course Robotic Process Automation (RPA) Young blood E-Learning by STelligence and Automation Anywhere, Issue Oct 2021</p>
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Certificate of Achievement R fundamental for Data Visualization
-										</h4>
-										<!-- <div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://bwdemo.000webhostapp.com/">Open Source</a>
-										</div> -->
-									</div>
-									<div class="item-content">
-										<p>Successfully completing Introduction to R, Data Manipulation with dplyr, Reshaping Data with tidyr, Introduction to Data Visualization with ggplot2,
-											Intermediate Data Visualization with ggplot2, Data Visualization with R Track, Correlation and Regression in R,
-											Intermediate Regression in R, By Datacamp, Issue May 2021
-										</p>
-
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Training attendance certificate Big Data Analytic Workshop
-										</h4>
-									</div>
-									<div class="item-content">
-										<p>I received training in Big Data Analytic Workshop, By Startup Thailand, Thai Programmer and NXPO, Issue Jul 2019</p>
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Certificate of participation Game of Founder 2020</h4>
-										<!-- <div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://bwdemo.000webhostapp.com/">Open Source</a>
-										</div> -->
-									</div>
-									<div class="item-content">
-										<p>In recognition of successful participation as "staff" for Game of Founder Project (entrepreneurship), Issue Nov 2020</p>
-
-									</div>
-								</div>
-								<!--//item-->
-							</section>
-							<!--//project-section-->
-
-							<section class="project-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Air Traffic Control System Simulator
-										</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://github.com/Thanapat-Mah/Air-Traffic-Control-System-Simulator">Open Source</a>
-										</div>
-									</div>
-									<div class="item-content">
-										<p>I was involved in creating this project from a software engineering class. 
-										This project has 3 members who use Agile Scrum to develop and manage it.
-										We use python and pygame, a cross-platform set of Python modules, designed for writing video games.</p>
-
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Cryptocurrency Trading System
-										</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://github.com/RunningTHPed/Database-Project">Open Source</a>
-										</div>
-
-									</div>
-									<div class="item-content">
-										<p>Web UnclePon exchange is a platform on which you can buy and sell cryptocurrency. I was involved in creating this project from a Database Systems class. 
-											This project has 3 members. In the front-end section uses React, Bootstrap and Chart.js. In the Back-end uses Express, NodeJS and MySQL.
-										</p>
-
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">BetterWork
-										</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://bwdemo.000webhostapp.com/">Open Source</a>
-										</div>
-
-									</div>
-									<div class="item-content">
-										<p>BetterWork is a web application that helps people manage their behavior while sitting for an extended period of time. 
-											I was involved in creating this project from a Start-Up Project class. In the front-end section uses HTML, CSS, JavaScript, Bootstrap and Jquery. 
-											In the Back-end uses PHP and MySQL.</p>
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Chatbot HealthClub</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://line.me/R/ti/p/%40071ummsk">Open Source</a>
-										</div>
-
-									</div>
-									<div class="item-content">
-										<p>HealthClub is a ChatBot about 54 Health Center General Information. I was involved in creating this project from a Start-Up Project class. I use Dialogflow</p>
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Shabu Buffet Project</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://github.com/RunningTHPed/Shabu-Home">Open Source</a>
-										</div>
-
-									</div>
-									<div class="item-content">
-										<p>The Shabu Buffet Project is a tablet-based application that allows users to order meals from the table and transfer food items to the kitchen. 
-											I was involved in creating this project from a Engineering Exploration class. This project has 4 members. We use Java, PHP and MySQL to build a project.</p>
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Data Models Project
-										</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="https://www.youtube.com/watch?v=zCNRQLWYW38">Open Source</a>
-										</div>
-
-									</div>
-									<div class="item-content">
-										<p>Data Model is about Heart Failure. Objective to find people with a high probability of death to provide immediate assistance. 
-											I was involved in creating this project from a Data Models class. This project has 5 members. We use R to build a project.</p>
-									</div>
-								</div>
-								<!--//item-->
-								<!-- <div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Snake Game Project By Verilog
-										</h4>
-										<div
-											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end theme-link">
-											<a href="">Open Source</a>
-										</div>
-
-									</div>
-									<div class="item-content">
-										<p>ตอนปี2</p>
-
-									</div>
-								</div> -->
-								<!--//item-->
-								
-							</section>
-							<!--//project-section-->
-						</div>
-						<!--//resume-main-->
-						<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
-							<section class="work-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Technical</h4>
-									</div>
-									<div class="item-content">
-										<ul class="resume-list">
-											<li>C, Java, Python, R, Git</li>
-											<li>HTML, CSS, JavaScript, React.js, Bootstrap</li>
-											<li>PHP, Express.js, Node.js, MySQL</li>
-											<li>Robotic Process Automation RPA</li>
-											<li>Data Visualization with R</li>
-											<li>ChatBot in Dialogflow</li>
-											<li>Trading Cryptocurrency</li>
-										</ul>
-									</div>
-								</div>
-								<!--//item-->
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Professional</h4>
-									</div>
-									<div class="item-content">
-										<ul class="resume-list">
-											<li>Good time management</li>
-											<li>Always plan what to do</li>
-											<li>Agile Scrum</li>
-											<li>Presentation</li>
-										</ul>
-									</div>
-								</div>
-								<!--//item-->
-
-							</section>
-							<!--//work-section-->
-							<section class="education-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
-								<ul class="list-unstyled resume-education-list">
-									<li class="mb-3">
-										<div class="resume-degree font-weight-bold">BEng in Computer Engineering</div>
-										<div class="resume-degree-org text-muted">King Mongkut's University of Technology Thonburi</div>
-										<div class="resume-degree-time text-muted">2019 - 2023</div>
-									</li>
-									<li class="mb-3">
-										<div class="resume-degree font-weight-bold">High School in science - math</div>
-										<div class="resume-degree-org text-muted">Sakolrajwittayanukul School</div>
-										<div class="resume-degree-time text-muted">2016 - 2019</div>
-									</li>
-								</ul>
-							</section>
-							<!--//education-section-->
-							<section class="skills-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
-								<ul class="list-unstyled resume-interests-list mb-0">
-									<li class="mb-2">User Interface</li>
-									<li class="mb-2">User Experience</li>
-									<li class="mb-2">Graphic Design</li>
-									<li class="mb-2">BlockChain</li>
-									<li>Cryptocurrency</li>
-								</ul>
-							</section>
-							<!--//certificates-section-->
-
-						</aside>
-						<!--//resume-aside-->
-					</div>
-					<!--//row-->
-				</div>
-				<!--//resume-body-->
-				<hr>
-				<div class="resume-footer text-center">
-					<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-						<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="https://github.com/RunningTHPed"><i
-									class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i><span
-									class="d-none d-lg-inline-block text-muted">github.com/RunningTHPed</span></a></li>
-						<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="https://www.linkedin.com/in/jatumongkon-suksrinuan-004980158/"><i
-									class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span
-									class="d-none d-lg-inline-block text-muted">linkedin.com/in/jatumongkon-suksrinuan</span></a></li>
-						<li class="list-inline-item mb-lg-0 me-lg-3"><a class="resume-link" href="https://www.youtube.com/channel/UCRpMKXjoe5q6SMHFIeivbWA"><i
-									class="fab fa-youtube-square fa-2x me-2" data-fa-transform="down-4"></i><span
-									class="d-none d-lg-inline-block text-muted">JUG TV.</span></a></li>
-					</ul>
-				</div>
-				<!--//resume-footer-->
-			</article>
-
-		</div>
-		<!--//container-->
-
-
-	</div>
-	<!--//main-wrapper-->
-
-
-</body>
-
+    <script>
+      // Simple client-side include for <!--#include file="..." -->
+      document.addEventListener("DOMContentLoaded", function () {
+        const includeTags = Array.from(
+          document.querySelectorAll("body,head"),
+        ).flatMap((el) => {
+          // Find all comments in body and head
+          const walker = document.createTreeWalker(
+            el,
+            NodeFilter.SHOW_COMMENT,
+            null,
+            false,
+          );
+          let node,
+            nodes = [];
+          while ((node = walker.nextNode())) nodes.push(node);
+          return nodes;
+        });
+        includeTags.forEach(async (commentNode) => {
+          const match = commentNode.nodeValue.match(
+            /#include file=["'](.+?)["']/,
+          );
+          if (match) {
+            const file = match[1];
+            try {
+              const resp = await fetch(file);
+              if (resp.ok) {
+                const html = await resp.text();
+                const temp = document.createElement("div");
+                temp.innerHTML = html;
+                // Insert all children before the comment
+                while (temp.firstChild) {
+                  commentNode.parentNode.insertBefore(
+                    temp.firstChild,
+                    commentNode,
+                  );
+                }
+                commentNode.parentNode.removeChild(commentNode);
+              }
+            } catch (e) {
+              // Fail silently
+            }
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
